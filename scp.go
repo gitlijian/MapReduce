@@ -92,8 +92,8 @@ func remoteCopyFile(path_ string, user_ string, password_ string, host_ string, 
 func main() {
 	// ubuntu@122.51.172.48:/home/ubuntu/go/src/delve
 	//              对端路径                               用户名    密码          对端IP        对端端口号
-	 remoteCopyFile("/home/lijian/mydir/practice/export1", "lijian", "abcde12345", "132.232.241.187", 22)
+	 remoteCopyFile("/home/lijian/mydir/practice/export1", "xxx", "xxx", "132.232.241.187", 22)
 
-	//remoteCopyFile("/home/ubuntu/test.txt", "ubuntu", "123LiJian", "127.0.0.1", 22)
+	//remoteCopyFile("/home/ubuntu/test.txt", "ubuntu", "xxx", "127.0.0.1", 22)
 
 }
